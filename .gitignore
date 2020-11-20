@@ -1,2 +1,4 @@
 # Project exclude paths
 /static/node_modules/
+.idea/
+venv
