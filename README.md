@@ -6,7 +6,14 @@
 * Databse: SQLite
 
 ### To start:
-From the `/InternshipCourse` folder, enter the Python virtualenv, and run the Flask app
+From the `/InternshipCourse` folder, run:
+```
+pip install -r requirements.txt
+set FLASK_APP=app.py
+set FLASK_ENV=development   # omit this line for a production server
+python -m flask run
+```
+
 
 
 #### To open front-end dev-server:
